@@ -1,14 +1,83 @@
-header {
-    background-color: #f0f0f0;
-    padding: 1rem;
+@charset "UTF-8";
+
+a{
+  text-decoration: none;
+  color: black;
+  display: block;
 }
-.header-style {
-    color: #333;
-    font-size: 2rem;
-    text-align:center
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  width: 1200px;
+  text-align: center;
 }
+
+.logo img{
+  margin-top: 5px;
+}
+
+.logo p{
+  font-size: 40px !important;
+}
+
 .logo {
-    width: 50px;
-    height: 50px;
-    text-align:left !important
+  text-align: center;
+  line-height: 0px;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+nav ul li{
+  flex: 1;
+  border-right: 1px solid #ddd;
+}
+
+nav ul li:first-child{
+  border-left: 1px solid #ddd;
+}
+
+nav {
+  width: 1200px;
+  padding: 0px 20px !important;
+}
+
+header {
+  border-top: 10px solid #79a1b1;
+  width: 1200px;
+  text-decoration: none;
+}
+
+header nav ul li a{
+  color: black;
+  display: block !important;
+  background-color: none;
+}
+
+.service-container{
+  display: flex;
+  flex:1;
+  justify-content: space-around;
+}
+
+footer{
+  margin-top: 40px;
+}
+
+.policy{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.copy{
+  color: white;
+  background: #79a1b1;
 }
