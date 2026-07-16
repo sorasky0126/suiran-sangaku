@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  width: 1200px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -48,7 +48,7 @@ nav ul li:first-child{
 }
 
 nav {
-  width: 1200px;
+  width: 100%;
   padding: 0px 20px !important;
 }
 
