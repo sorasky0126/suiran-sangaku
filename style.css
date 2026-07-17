@@ -94,3 +94,37 @@ footer{
   color: white;
   background: #79a1b1;
 }
+
+/* 新規追加: サービスカードの画像を自動サイズ化し、モバイルでは縦並びにする */
+.service-container{
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.service {
+  box-sizing: border-box;
+  flex: 1 1 calc(33% - 40px); /* デスクトップでは3列表示を想定 */
+  max-width: 320px;
+  margin: 10px;
+}
+
+.service img {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* アスペクト比を指定して高さを自動調整 */
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  /* モバイルでは縦並び（1列）にする */
+  .service {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 8px 0;
+  }
+  /* ナビも折り返すと見やすい */
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
