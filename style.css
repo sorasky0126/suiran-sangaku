@@ -16,6 +16,7 @@ body {
   align-items: center;
   margin: 0 auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .logo img{
