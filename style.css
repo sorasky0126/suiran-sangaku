@@ -79,6 +79,8 @@ header nav ul li a{
   flex:1;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 20px;
+  padding: 0 10px;
 }
 
 footer{
@@ -93,12 +95,6 @@ footer{
 .copy{
   color: white;
   background: #79a1b1;
-}
-
-/* 新規追加: サービスカードの画像を自動サイズ化し、モバイルでは縦並びにする */
-.service-container{
-  gap: 20px;
-  padding: 0 10px;
 }
 
 .service {
