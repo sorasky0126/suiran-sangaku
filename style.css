@@ -37,6 +37,11 @@ header{
   margin-bottom: 15px;
 }
 
+.top-bar {
+  position: sticky;
+  top: 0;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -57,8 +62,6 @@ nav {
   width: 100%;
   padding: 0px 20px !important;
   box-sizing: border-box;
-  position: sticky;
-  top: 0;
   padding: 10px;
 }
 
