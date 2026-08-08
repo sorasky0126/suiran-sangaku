@@ -122,6 +122,10 @@ footer{
   border-radius: 6px;
 }
 
+p.sp{
+  display: none;
+}
+
 @media (max-width: 600px) {
   /* モバイルでは縦並び（1列）にする */
   .service {
@@ -129,6 +133,11 @@ footer{
     max-width: 100%;
     margin: 8px 0;
   }
+
+  p.sp{
+    display: block;
+  }
+  
   /* ナビも折り返すと見やすい */
   nav ul {
     flex-wrap: wrap;
