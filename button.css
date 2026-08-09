@@ -7,7 +7,7 @@ a.viewMore {
   display: block;
   position: relative;
   box-sizing: border-box;
-  max-width: 180px;
+  max-width: 100px;
   text-align: center; 
   padding: 4px 16px 4px 0;
   margin: 24px;
@@ -21,7 +21,7 @@ a.viewMore::before {
   content: "";
   display: block;
   position: absolute;
-  width: 180px;
+  width: 100px;
   height: 1px;
   background: #333;
   bottom: 0;
