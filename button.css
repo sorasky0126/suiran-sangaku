@@ -1,4 +1,4 @@
-.viewMore a {
+a.viewMore {
   font-family: 'Noto Serif JP', serif;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -17,7 +17,7 @@
   transition: all 0.3s;
 }
 
-.viewMore a::before {
+a.viewMore::before {
   content: "";
   display: block;
   position: absolute;
@@ -28,7 +28,7 @@
   transition: all 0.3s;
 }
 
-.viewMore a::after {
+a.viewMore::after {
   content: "";
   display: block;
   position: absolute;
@@ -41,8 +41,8 @@
   transition: all 0.3s;
 }
 
-.viewMore a:hover::after,
-.viewMore a:hover::before {
+a.viewMore:hover::after,
+a.viewMore:hover::before {
   translate: 20px 0;
   transition: all 0.3s;
 }
