@@ -51,7 +51,7 @@ a.viewMore:hover::before {
 
 /* toHomeボタン */
 a.toHome {
-  font-family: 'Noto Sans JP', serif;
+  font-family: 'Zen Maru Gothic', 'Noto Sans JP', serif;
   font-size: 14px;
   letter-spacing: 0.1em;
   color: #333;
