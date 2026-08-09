@@ -112,6 +112,7 @@ footer{
   flex: 1 1 calc(33% - 40px); /* デスクトップでは3列表示を想定 */
   max-width: 320px;
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .service img {
