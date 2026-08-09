@@ -10,7 +10,7 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  hustify-content: space-between;
+  justify-content: space-between;
 }
 
 .hamburger span{
