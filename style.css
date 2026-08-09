@@ -143,4 +143,9 @@ br.sp{
   nav ul {
     flex-wrap: wrap;
   }
+
+  top-bar{
+    display: none;
+  }
+  
 }
