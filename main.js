@@ -1,4 +1,4 @@
-let hamburger = document.getErementById("js-hamburger");
+let hamburger = document.getElementById("js-hamburger");
 let menu = document.getElementById("js-menu");
 
 hamburger.addEventListener(
