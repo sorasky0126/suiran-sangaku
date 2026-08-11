@@ -19,7 +19,7 @@
   height: 3px;
   background-color: black;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 4px rgba(0,0,0,0.5)
+  box-shadow: 0 4px 4px rgba(0,0,0,0.5);
 }
 
 .hamburger.active span:nth-of-type(1){ /* あとで直そう */
