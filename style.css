@@ -43,23 +43,23 @@ header{
   z-index: 98;
 }
 
-.top-bar.nav ul {
+nav.top-bar ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.top-bar.nav ul li{
+nav.top-bar ul li{
   flex: 1;
   border-right: 1px solid #ddd;
 }
 
-.top-bar.nav ul li:first-child{
+nav.top-bar ul li:first-child{
   border-left: 1px solid #ddd;
 }
 
-.top-bar.nav {
+nav.top-bar {
   width: 100%;
   padding: 0px 20px !important;
   box-sizing: border-box;
