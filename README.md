@@ -1,4 +1,4 @@
-# html-manabu-1
+# suiran-sangaku
 
 デプロイしたサイト
 https://sangaku.suiran.f5.si/
