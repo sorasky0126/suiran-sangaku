@@ -64,5 +64,6 @@
   text-decoration: none;
 }
 
-
-
+.menu.active{
+  right: 0%;
+}
