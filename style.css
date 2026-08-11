@@ -70,9 +70,11 @@ header {
   border-top: 10px solid #79a1b1;
   width: 100%;
   text-decoration: none;
+  /*
   position: sticky;
   top: 0;
   z-index: 98;
+  */
 }
 
 header nav ul li a{
