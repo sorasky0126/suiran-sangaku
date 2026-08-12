@@ -82,8 +82,6 @@ header nav ul li a{
   height: 100svh;
   object-fit: cover;
   object-position: center;
-  will-change: transform;
-  transform: translateZ(0);
 }
 
 .about-us{
