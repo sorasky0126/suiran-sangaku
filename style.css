@@ -86,6 +86,10 @@ header nav ul li a{
   transform: translateZ(0);
 }
 
+.about-us{
+  text-align: left;
+}
+
 .service-container{
   display: flex;
   flex:1;
