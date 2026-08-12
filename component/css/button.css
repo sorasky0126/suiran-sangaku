@@ -1,1 +1,90 @@
+/* viewMoreボタン */
+a.viewMore {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #333;
+  font-weight: 400;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 100px;
+  text-align: center; 
+  padding: 4px 16px 4px 0;
+  margin: 24px;
+  margin-inline: auto;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
 
+a.viewMore::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #333;
+  bottom: 0;
+  transition: all 0.3s;
+}
+
+a.viewMore::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background: #333;
+  rotate: 40deg;
+  right: -3px;
+  bottom: 10px;
+  transition: all 0.3s;
+}
+
+a.viewMore:hover::after,
+a.viewMore:hover::before {
+  translate: 20px 0;
+  transition: all 0.3s;
+}
+
+
+/* toHomeボタン */
+a.toHome {
+  font-family: 'Zen Maru Gothic', 'Noto Sans JP', serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #333;
+  font-weight: 700;
+  outline: 3px solid #333;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 300px;
+  text-align: center; 
+  padding: 16px 64px;
+  margin: 24px;
+  margin-inline: auto;
+  text-decoration: none;
+  cursor: pointer;
+  z-index:999;
+  transition: all 0.3s;
+}
+
+a.toHome::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 100%;
+  height: 100%;
+  background: #eee9e6;
+  z-index:-999;
+  transition: all 0.3s ease;
+}
+
+a.toHome a:hover::before {
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
