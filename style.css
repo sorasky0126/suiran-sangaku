@@ -132,6 +132,10 @@ br.sp{
   display: none;
 }
 
+.square img{
+  aspect-ratio: 1 / 1;
+}
+
 @media (max-width: 600px) {
   /* モバイルでは縦並び（1列）にする */
   .service {
