@@ -133,7 +133,7 @@ br.sp{
 }
 
 .square img{
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1 / 1 !important;
 }
 
 @media (max-width: 600px) {
