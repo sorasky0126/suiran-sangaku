@@ -16,7 +16,7 @@ function loadFooter(){
   fetch('/component/html/footer.html')
     .then(response => {
       if(!response.ok) throw new Error('footer.htmlの読み込みに失敗しました。');
-      return responce.text();
+      return response.text();
     })
     .then(html => {
       document.getElementById('footer').innerHTML = html;
