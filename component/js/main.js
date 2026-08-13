@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //ここで、ハンバーガーメニューと、その他諸々のresetを関数にしてあとで呼び出す
-function to reset(){
+function reset(){
 // ハンバーガーメニュー
 let hamburger = document.getElementById("js-hamburger");
 let menu = document.getElementById("js-menu");
