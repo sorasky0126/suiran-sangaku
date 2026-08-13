@@ -3,6 +3,7 @@ function loadHeader(){
     .then(response => {
       if(!response.ok) throw new Error('header.htmlの読み込みに失敗しました。');
       return response.text();
+      
     })
     .then(html => {
       document.getElementById('header').innerHTML = html;
@@ -24,6 +25,7 @@ function loadFooter(){
     .catch(error => {
       console.error('footer.htmlの読み込みに失敗しました。', error);
     });
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   loadHeader();
