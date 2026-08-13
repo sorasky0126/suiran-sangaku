@@ -24,3 +24,8 @@ function loadFooter(){
     .catch(error => {
       console.error('footer.htmlの読み込みに失敗しました。', error);
     });
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadHeader();
+  loadFooter();
+});
