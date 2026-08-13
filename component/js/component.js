@@ -1,11 +1,11 @@
 function loadHeader(){
   fetch('/component/html/header.html')
-    .then(responce => {
-      if(!responce.ok) throw new Error('header.htmlの読み込みに失敗しました。');
-      return responce.txt();
+    .then(response => {
+      if(!response.ok) throw new Error('header.htmlの読み込みに失敗しました。');
+      return responce.text();
     })
     .then(html => {
-      document.getErementById('header').innerHTML = html;
+      document.getElementById('header').innerHTML = html;
     })
     .catch(error => {
       console.error('header.htmlの読み込みに失敗しました。', error);
