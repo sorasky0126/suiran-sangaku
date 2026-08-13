@@ -21,10 +21,8 @@ function loadFooter(){
     })
     .then(html => {
       document.getElementById('footer').innerHTML = html;
-    })
-    .then(
       reset();
-    )
+    })
     .catch(error => {
       console.error('footer.htmlの読み込みに失敗しました。', error);
     });
