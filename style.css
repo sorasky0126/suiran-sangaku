@@ -132,7 +132,7 @@ br.sp{
   display: none;
 }
 
-.square img{
+.square{
   aspect-ratio: 1 / 1 !important;
 }
 
