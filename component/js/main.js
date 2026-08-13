@@ -22,6 +22,9 @@ function loadFooter(){
     .then(html => {
       document.getElementById('footer').innerHTML = html;
     })
+    .then(
+      reset();
+    )
     .catch(error => {
       console.error('footer.htmlの読み込みに失敗しました。', error);
     });
@@ -32,6 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
   loadFooter();
 });
 
+//ここで、ハンバーガーメニューと、その他諸々のresetを関数にしてあとで呼び出す
+function to reset(){
 // ハンバーガーメニュー
 let hamburger = document.getElementById("js-hamburger");
 let menu = document.getElementById("js-menu");
@@ -51,3 +56,4 @@ window.addEventListener('DOMContentLoaded', () => {
     faceImg.style.height = `${window.innerHeight}px`;
   }
 });
+};
