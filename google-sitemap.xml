@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sangaku.suiran.f5.si/</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sangaku.suiran.f5.si/blog/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
