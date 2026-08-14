@@ -136,6 +136,24 @@ br.sp{
   aspect-ratio: 1 / 1 !important;
 }
 
+.q {
+  text-align: left;
+  padding: 0 0 40% 0;
+}
+
+.a {
+  text-align: right;
+  padding: 0 40% 0 0;
+}
+
+span.sub {
+  font-size: 15px;
+}
+
+.big {
+  font-size: 30px;
+}
+
 @media (max-width: 600px) {
   /* モバイルでは縦並び（1列）にする */
   .service {
