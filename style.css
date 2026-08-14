@@ -138,12 +138,12 @@ br.sp{
 
 .q {
   text-align: left;
-  padding: 0 0 40% 0;
+  padding: 0 30% 0 0;
 }
 
 .a {
   text-align: right;
-  padding: 0 40% 0 0;
+  padding: 0 0 0 30%;
 }
 
 span.sub {
