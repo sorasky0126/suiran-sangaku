@@ -1,2 +1,8 @@
-npm init -y
-npm install @supabase/supabase-js
+{
+  "name": "suiran-sangaku",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
